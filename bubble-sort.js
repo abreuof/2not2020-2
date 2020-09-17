@@ -9,7 +9,7 @@
     que nenhuma troca seja efetuada no percurso
 */
 
-function bubbleSort(vetor) {
+function bubbleSort(vetor, fnComp) {
     let passadas = 0, comparacoes = 0, totalTrocas = 0
     let trocas
     do {
